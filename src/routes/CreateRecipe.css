@@ -1,0 +1,51 @@
+.create-box {
+    width: 50%;
+    background-color: rgba(20, 20, 20, 0.8);
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 4px black;
+    text-align: center;
+    padding: 40px;
+}
+
+.ScrollList {
+    height: 70px;
+    font-size: 14px;
+    text-align: left;
+    overflow-y: auto;
+    background-color: rebeccapurple;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .create-box {
+        width: 80%;
+        margin-bottom: 26%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .create-box {
+        width: 80%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .create-box {
+        width: 60%;
+    }
+}
+
+@media screen and (max-height: 1400px) {
+    .create-box {
+        width: 40%;
+    }
+}
+
+
+@media screen and (orientation: portrait) and (max-height: 1400px) {
+    .create-box {
+        width: 80%;
+    }
+}
