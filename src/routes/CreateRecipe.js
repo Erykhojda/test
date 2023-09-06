@@ -162,7 +162,7 @@ const CreateRecipe = () => {
                 <FormControlLabel value="Public" control={<Radio />} label="Public" name="status" />
                 <FormControlLabel value="Private" control={<Radio />} label="Private" name="status" />
               </RadioGroup>
-              <Button type='submit' variant="contained">Create</Button>
+              <button type='submit' variant="contained">Create</button>
 
             </FormControl>
 
